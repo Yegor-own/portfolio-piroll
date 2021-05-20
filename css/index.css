@@ -1,0 +1,46 @@
+.head {
+  background-color: #F6F6F6;
+  width: 100%;
+}
+
+.head__body {
+  padding: 130px;
+}
+
+.head__title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.head__text {
+  font-size: 25px;
+  color: gray;
+}
+
+.head__text p {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content__body {
+}
+.content__row {
+  display: flex;
+  flex-direction: row;
+}
+.content__image {
+  width: 25%;
+}
+
+.content__image img {
+  width: 100%;
+}
