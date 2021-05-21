@@ -44,3 +44,12 @@
 .content__image img {
   width: 100%;
 }
+
+@media (max-aspect-ratio: 3/2) {
+  .content__row {
+    flex-wrap: wrap;
+  }
+  .content__image {
+    width: 50%;
+  }
+}

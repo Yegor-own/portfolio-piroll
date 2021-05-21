@@ -11,6 +11,7 @@
   justify-content: space-between;
 }
 
+
 .foot__body * {
   margin-bottom: 12px;
 }
@@ -46,4 +47,27 @@
 
 .foot__social {
   font-size: 20px;
+}
+
+@media(max-aspect-ratio: 3/2) {
+  .foot__body {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  .foot__item {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+  }
+  .foot__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .foot__labels {
+    display: flex;
+    justify-content: center;
+  }
 }
