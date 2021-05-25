@@ -47,7 +47,10 @@
 .galery__inner {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 3;
+  overflow: hidden;
 }
 
 .galery__inner:before {
@@ -70,13 +73,16 @@
 .galery__img {
   width: 100%;
   object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.galery__inner:hover .galery__img {
+  transform: scale(1.05);
 }
 
 .galery__zoom {
   position: absolute;
   z-index: 3;
-  left: 40%;
-  bottom: 40%;
   opacity: 0;
 }
 
