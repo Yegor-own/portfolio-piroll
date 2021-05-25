@@ -5,6 +5,7 @@
 }
 
 .foot__body {
+  cursor: pointer;
   padding-top: 130px;
   padding-bottom: 100px;
   display: flex;
